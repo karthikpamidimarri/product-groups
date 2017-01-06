@@ -6,6 +6,13 @@ GIT
       spree_backend (>= 3.1.0, < 4.0)
 
 GIT
+  remote: git://github.com/karthikpamidimarri/spree_product_groups.git
+  revision: 9802d5983fc8eba88eacd2bef5671f2144cfbb73
+  specs:
+    spree_product_groups (1.0.0)
+      spree_core
+
+GIT
   remote: git://github.com/spree-contrib/spree_multi_currency.git
   revision: 89c973fecc3f926a776d2d2bd9c06517f015d0f0
   branch: 3-1-stable
@@ -429,6 +436,7 @@ DEPENDENCIES
   spree_gateway!
   spree_multi_currency!
   spree_product_assembly!
+  spree_product_groups!
   spree_social!
   spring
   turbolinks
